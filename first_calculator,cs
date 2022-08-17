@@ -1,0 +1,9 @@
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Sup, write ur frist num :");
+string f_num = Console.ReadLine();
+//Convert.ToInt32(f_num);
+Console.WriteLine("Write ur second num");
+string s_num = Console.ReadLine();
+//Convert.ToInt32(s_num);
+int? result = Convert.ToInt32(f_num) + Convert.ToInt32(s_num);
+Console.WriteLine(result);
